@@ -21,19 +21,15 @@
     display: flex;
   }
 
-  .service-descr {
-    width: 50%;
-  }
-
   .descr-text {
     width: fit-content;
   }
 }
 
 @media only screen and (min-width: 599px) {
-  figure img {
+  /* figure img {
     width: 350px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 840px) {
@@ -55,7 +51,7 @@
   }
 
   .service-descr {
-    width: 88%;
+    width: 100%;
     font-size: 1rem;
   }
 
