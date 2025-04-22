@@ -1,0 +1,71 @@
+/* Home */
+
+
+/* Services */
+@media only screen and (min-width: 500px) {
+  .figure-and-descr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .service h3 {
+    margin-bottom: 10px;
+  }
+
+  .service {
+    display: flex;
+  }
+
+  .service-descr {
+    width: 50%;
+  }
+
+  .descr-text {
+    width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 599px) {
+  figure img {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .services-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+
+  .service {
+    width:50%;
+  }
+  
+  .figure-and-descr {
+    display: block;
+    justify-items: center;
+    width: 100%;
+  }
+
+  .service-descr {
+    width: 88%;
+    font-size: 1rem;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  .service img {
+    max-width: 500px;
+  }
+}
+
+/* Contact */
